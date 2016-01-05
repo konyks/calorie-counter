@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stay Healthy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BqI-2o-9cP">
+                    <rect key="frame" x="125" y="95" width="231" height="36"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="231" id="UfO-6k-Ujg"/>
+                        <constraint firstAttribute="height" constant="36" id="gAL-kN-aYP"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clarie Counter" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="suj-Hl-XOc">
+                    <rect key="frame" x="125" y="205" width="231" height="69"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="231" id="TZw-hf-vSU"/>
+                        <constraint firstAttribute="height" constant="69" id="et5-bF-FvJ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="32"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Watch Your Calories" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WPV-ie-1dA">
+                    <rect key="frame" x="99" y="350" width="283" height="36"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="283" id="RqJ-bD-hQI"/>
+                        <constraint firstAttribute="height" constant="36" id="UHp-o6-X04"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.79607843140000001" green="0.97647058819999999" blue="0.79215686269999996" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="centerY" secondItem="WPV-ie-1dA" secondAttribute="centerY" constant="-128" id="7zn-dM-6Pg"/>
+                <constraint firstAttribute="centerY" secondItem="suj-Hl-XOc" secondAttribute="centerY" constant="0.5" id="CZQ-tM-mYQ"/>
+                <constraint firstItem="suj-Hl-XOc" firstAttribute="top" secondItem="BqI-2o-9cP" secondAttribute="bottom" constant="74" id="EyG-Ti-Nwe"/>
+                <constraint firstAttribute="centerX" secondItem="BqI-2o-9cP" secondAttribute="centerX" constant="-0.5" id="Ifl-Ws-aam"/>
+                <constraint firstAttribute="centerX" secondItem="suj-Hl-XOc" secondAttribute="centerX" constant="-0.5" id="Kcl-Va-Kml"/>
+                <constraint firstAttribute="centerY" secondItem="BqI-2o-9cP" secondAttribute="centerY" constant="127" id="WiU-P9-5Xt"/>
+                <constraint firstItem="WPV-ie-1dA" firstAttribute="top" secondItem="suj-Hl-XOc" secondAttribute="bottom" constant="76" id="fGV-t3-bw9"/>
+                <constraint firstAttribute="centerX" secondItem="WPV-ie-1dA" secondAttribute="centerX" constant="-0.5" id="xVu-UX-oj7"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+</document>

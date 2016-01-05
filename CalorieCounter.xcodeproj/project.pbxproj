@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		780731211C0FFF9E00CCC0FC /* BMRCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786378871BEF045700D48C1F /* BMRCalculator.swift */; };
+		780731411C109A8000CCC0FC /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780731401C109A7400CCC0FC /* Charts.framework */; };
+		780731421C109A8000CCC0FC /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 780731401C109A7400CCC0FC /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		780731491C12397100CCC0FC /* PrecentageCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780731481C12397100CCC0FC /* PrecentageCalculator.swift */; };
+		7807314A1C12397100CCC0FC /* PrecentageCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780731481C12397100CCC0FC /* PrecentageCalculator.swift */; };
+		7807314C1C124C3600CCC0FC /* README.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7807314B1C124C3600CCC0FC /* README.rtf */; };
+		7807314D1C124C3600CCC0FC /* README.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7807314B1C124C3600CCC0FC /* README.rtf */; };
+		781132241BF8002F0045FDC4 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781132231BF8002F0045FDC4 /* Button.swift */; };
+		781132261BF815450045FDC4 /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781132251BF815450045FDC4 /* LogViewController.swift */; };
+		781132361BF8DFA80045FDC4 /* CaloriesInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781132351BF8DFA80045FDC4 /* CaloriesInputViewController.swift */; };
+		781132381BF8FCC10045FDC4 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781132371BF8FCC10045FDC4 /* TableViewController.swift */; };
+		786378861BEEEFBD00D48C1F /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786378851BEEEFBD00D48C1F /* ResetPasswordViewController.swift */; };
+		786378881BEF045700D48C1F /* BMRCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786378871BEF045700D48C1F /* BMRCalculator.swift */; };
+		78C498A71BE85A440032281F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C498A61BE85A440032281F /* AppDelegate.swift */; };
+		78C498AC1BE85A440032281F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78C498AA1BE85A440032281F /* Main.storyboard */; };
+		78C498AE1BE85A440032281F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78C498AD1BE85A440032281F /* Images.xcassets */; };
+		78C498B11BE85A440032281F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78C498AF1BE85A440032281F /* LaunchScreen.xib */; };
+		78C498BD1BE85A440032281F /* CalorieCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C498BC1BE85A440032281F /* CalorieCounterTests.swift */; };
+		78C498CA1BE860D90032281F /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C498C91BE860D90032281F /* NavigationViewController.swift */; };
+		78C498CC1BE8674F0032281F /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C498CB1BE8674F0032281F /* LogInViewController.swift */; };
+		78C498CE1BE8E8490032281F /* PersonalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C498CD1BE8E8490032281F /* PersonalDetailViewController.swift */; };
+		78C498D01BE8E86D0032281F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C498CF1BE8E86D0032281F /* RegisterViewController.swift */; };
+		78C498D91BE8F4FE0032281F /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C498D21BE8F4FE0032281F /* Bolts.framework */; };
+		78C498DA1BE8F4FE0032281F /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C498D31BE8F4FE0032281F /* Parse.framework */; };
+		78C498DB1BE8F4FE0032281F /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C498D41BE8F4FE0032281F /* ParseCrashReporting.framework */; };
+		78C498DC1BE8F4FE0032281F /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C498D51BE8F4FE0032281F /* ParseFacebookUtils.framework */; };
+		78C498DD1BE8F4FE0032281F /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C498D61BE8F4FE0032281F /* ParseFacebookUtilsV4.framework */; };
+		78C498DE1BE8F4FE0032281F /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C498D71BE8F4FE0032281F /* ParseTwitterUtils.framework */; };
+		78C498DF1BE8F4FE0032281F /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C498D81BE8F4FE0032281F /* ParseUI.framework */; };
+		78C498E11BE8F5350032281F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C498E01BE8F5350032281F /* AudioToolbox.framework */; };
+		78C498E31BE8F53E0032281F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C498E21BE8F53E0032281F /* CFNetwork.framework */; };
+		78C498E51BE8F5490032281F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C498E41BE8F5490032281F /* CoreGraphics.framework */; };
+		78C498E71BE8F5520032281F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C498E61BE8F5520032281F /* CoreLocation.framework */; };
+		78C498E91BE8F55B0032281F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C498E81BE8F55B0032281F /* QuartzCore.framework */; };
+		78C498EB1BE8F5650032281F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C498EA1BE8F5650032281F /* Security.framework */; };
+		78C498ED1BE8F5720032281F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C498EC1BE8F5720032281F /* StoreKit.framework */; };
+		78C498EF1BE8F5910032281F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C498EE1BE8F5910032281F /* SystemConfiguration.framework */; };
+		78C498F11BE8F59F0032281F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C498F01BE8F59F0032281F /* libz.dylib */; };
+		78C498F31BE8F5B30032281F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C498F21BE8F5B30032281F /* libsqlite3.dylib */; };
+		78C498F51BE90BA50032281F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C498F41BE90BA50032281F /* HomeViewController.swift */; };
+		78C498F71BE90F770032281F /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C498F61BE90F770032281F /* TabBarViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7807313F1C109A7400CCC0FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7807313B1C109A7400CCC0FC /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BA8EC401A9D14DC00CE82E1;
+			remoteInfo = Charts;
+		};
+		780731431C109A8000CCC0FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7807313B1C109A7400CCC0FC /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BA8EC3F1A9D14DC00CE82E1;
+			remoteInfo = Charts;
+		};
+		78C498B71BE85A440032281F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78C498991BE85A430032281F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78C498A01BE85A440032281F;
+			remoteInfo = CalorieCounter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		78F1A3001C0D4DED008B8B38 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				780731421C109A8000CCC0FC /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7807313B1C109A7400CCC0FC /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = Charts/Charts.xcodeproj; sourceTree = "<group>"; };
+		780731481C12397100CCC0FC /* PrecentageCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrecentageCalculator.swift; sourceTree = "<group>"; };
+		7807314B1C124C3600CCC0FC /* README.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = README.rtf; sourceTree = "<group>"; };
+		781132231BF8002F0045FDC4 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		781132251BF815450045FDC4 /* LogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
+		781132351BF8DFA80045FDC4 /* CaloriesInputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaloriesInputViewController.swift; sourceTree = "<group>"; };
+		781132371BF8FCC10045FDC4 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		786378851BEEEFBD00D48C1F /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		786378871BEF045700D48C1F /* BMRCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMRCalculator.swift; sourceTree = "<group>"; };
+		78C498A11BE85A440032281F /* CalorieCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalorieCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C498A51BE85A440032281F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78C498A61BE85A440032281F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		78C498AB1BE85A440032281F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78C498AD1BE85A440032281F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		78C498B01BE85A440032281F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		78C498B61BE85A440032281F /* CalorieCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalorieCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C498BB1BE85A440032281F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78C498BC1BE85A440032281F /* CalorieCounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieCounterTests.swift; sourceTree = "<group>"; };
+		78C498C91BE860D90032281F /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		78C498CB1BE8674F0032281F /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		78C498CD1BE8E8490032281F /* PersonalDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalDetailViewController.swift; sourceTree = "<group>"; };
+		78C498CF1BE8E86D0032281F /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		78C498D21BE8F4FE0032281F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		78C498D31BE8F4FE0032281F /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		78C498D41BE8F4FE0032281F /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		78C498D51BE8F4FE0032281F /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		78C498D61BE8F4FE0032281F /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		78C498D71BE8F4FE0032281F /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
+		78C498D81BE8F4FE0032281F /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		78C498E01BE8F5350032281F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		78C498E21BE8F53E0032281F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		78C498E41BE8F5490032281F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		78C498E61BE8F5520032281F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		78C498E81BE8F55B0032281F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		78C498EA1BE8F5650032281F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		78C498EC1BE8F5720032281F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		78C498EE1BE8F5910032281F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		78C498F01BE8F59F0032281F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		78C498F21BE8F5B30032281F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		78C498F41BE90BA50032281F /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		78C498F61BE90F770032281F /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78C4989E1BE85A440032281F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C498F31BE8F5B30032281F /* libsqlite3.dylib in Frameworks */,
+				78C498F11BE8F59F0032281F /* libz.dylib in Frameworks */,
+				78C498EF1BE8F5910032281F /* SystemConfiguration.framework in Frameworks */,
+				780731411C109A8000CCC0FC /* Charts.framework in Frameworks */,
+				78C498ED1BE8F5720032281F /* StoreKit.framework in Frameworks */,
+				78C498EB1BE8F5650032281F /* Security.framework in Frameworks */,
+				78C498E91BE8F55B0032281F /* QuartzCore.framework in Frameworks */,
+				78C498E71BE8F5520032281F /* CoreLocation.framework in Frameworks */,
+				78C498E51BE8F5490032281F /* CoreGraphics.framework in Frameworks */,
+				78C498E31BE8F53E0032281F /* CFNetwork.framework in Frameworks */,
+				78C498E11BE8F5350032281F /* AudioToolbox.framework in Frameworks */,
+				78C498DA1BE8F4FE0032281F /* Parse.framework in Frameworks */,
+				78C498DB1BE8F4FE0032281F /* ParseCrashReporting.framework in Frameworks */,
+				78C498DF1BE8F4FE0032281F /* ParseUI.framework in Frameworks */,
+				78C498DC1BE8F4FE0032281F /* ParseFacebookUtils.framework in Frameworks */,
+				78C498D91BE8F4FE0032281F /* Bolts.framework in Frameworks */,
+				78C498DE1BE8F4FE0032281F /* ParseTwitterUtils.framework in Frameworks */,
+				78C498DD1BE8F4FE0032281F /* ParseFacebookUtilsV4.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C498B31BE85A440032281F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7807313C1C109A7400CCC0FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				780731401C109A7400CCC0FC /* Charts.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		781132271BF81BD00045FDC4 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				781132231BF8002F0045FDC4 /* Button.swift */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		78231F671BF558F600FEC91C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				786378871BEF045700D48C1F /* BMRCalculator.swift */,
+				780731481C12397100CCC0FC /* PrecentageCalculator.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		78C498981BE85A430032281F = {
+			isa = PBXGroup;
+			children = (
+				7807313B1C109A7400CCC0FC /* Charts.xcodeproj */,
+				78C498A31BE85A440032281F /* CalorieCounter */,
+				78C498B91BE85A440032281F /* CalorieCounterTests */,
+				78C498D11BE8F4E00032281F /* Framaworks */,
+				78C498A21BE85A440032281F /* Products */,
+				7807314B1C124C3600CCC0FC /* README.rtf */,
+			);
+			sourceTree = "<group>";
+		};
+		78C498A21BE85A440032281F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78C498A11BE85A440032281F /* CalorieCounter.app */,
+				78C498B61BE85A440032281F /* CalorieCounterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78C498A31BE85A440032281F /* CalorieCounter */ = {
+			isa = PBXGroup;
+			children = (
+				781132271BF81BD00045FDC4 /* Buttons */,
+				78231F671BF558F600FEC91C /* Model */,
+				78C498C81BE860860032281F /* Controllers */,
+				78C498A61BE85A440032281F /* AppDelegate.swift */,
+				78C498AA1BE85A440032281F /* Main.storyboard */,
+				78C498AD1BE85A440032281F /* Images.xcassets */,
+				78C498AF1BE85A440032281F /* LaunchScreen.xib */,
+				78C498A41BE85A440032281F /* Supporting Files */,
+			);
+			path = CalorieCounter;
+			sourceTree = "<group>";
+		};
+		78C498A41BE85A440032281F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78C498A51BE85A440032281F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78C498B91BE85A440032281F /* CalorieCounterTests */ = {
+			isa = PBXGroup;
+			children = (
+				78C498BC1BE85A440032281F /* CalorieCounterTests.swift */,
+				78C498BA1BE85A440032281F /* Supporting Files */,
+			);
+			path = CalorieCounterTests;
+			sourceTree = "<group>";
+		};
+		78C498BA1BE85A440032281F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78C498BB1BE85A440032281F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78C498C81BE860860032281F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				78C498C91BE860D90032281F /* NavigationViewController.swift */,
+				78C498CB1BE8674F0032281F /* LogInViewController.swift */,
+				78C498CF1BE8E86D0032281F /* RegisterViewController.swift */,
+				78C498CD1BE8E8490032281F /* PersonalDetailViewController.swift */,
+				78C498F41BE90BA50032281F /* HomeViewController.swift */,
+				78C498F61BE90F770032281F /* TabBarViewController.swift */,
+				786378851BEEEFBD00D48C1F /* ResetPasswordViewController.swift */,
+				781132251BF815450045FDC4 /* LogViewController.swift */,
+				781132351BF8DFA80045FDC4 /* CaloriesInputViewController.swift */,
+				781132371BF8FCC10045FDC4 /* TableViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		78C498D11BE8F4E00032281F /* Framaworks */ = {
+			isa = PBXGroup;
+			children = (
+				78C498F21BE8F5B30032281F /* libsqlite3.dylib */,
+				78C498F01BE8F59F0032281F /* libz.dylib */,
+				78C498EE1BE8F5910032281F /* SystemConfiguration.framework */,
+				78C498EC1BE8F5720032281F /* StoreKit.framework */,
+				78C498EA1BE8F5650032281F /* Security.framework */,
+				78C498E81BE8F55B0032281F /* QuartzCore.framework */,
+				78C498E61BE8F5520032281F /* CoreLocation.framework */,
+				78C498E41BE8F5490032281F /* CoreGraphics.framework */,
+				78C498E21BE8F53E0032281F /* CFNetwork.framework */,
+				78C498E01BE8F5350032281F /* AudioToolbox.framework */,
+				78C498D21BE8F4FE0032281F /* Bolts.framework */,
+				78C498D31BE8F4FE0032281F /* Parse.framework */,
+				78C498D41BE8F4FE0032281F /* ParseCrashReporting.framework */,
+				78C498D51BE8F4FE0032281F /* ParseFacebookUtils.framework */,
+				78C498D61BE8F4FE0032281F /* ParseFacebookUtilsV4.framework */,
+				78C498D71BE8F4FE0032281F /* ParseTwitterUtils.framework */,
+				78C498D81BE8F4FE0032281F /* ParseUI.framework */,
+			);
+			name = Framaworks;
+			path = CalorieCounter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78C498A01BE85A440032281F /* CalorieCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78C498C01BE85A440032281F /* Build configuration list for PBXNativeTarget "CalorieCounter" */;
+			buildPhases = (
+				78C4989D1BE85A440032281F /* Sources */,
+				78C4989E1BE85A440032281F /* Frameworks */,
+				78C4989F1BE85A440032281F /* Resources */,
+				78F1A3001C0D4DED008B8B38 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				780731441C109A8000CCC0FC /* PBXTargetDependency */,
+			);
+			name = CalorieCounter;
+			productName = CalorieCounter;
+			productReference = 78C498A11BE85A440032281F /* CalorieCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78C498B51BE85A440032281F /* CalorieCounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78C498C31BE85A440032281F /* Build configuration list for PBXNativeTarget "CalorieCounterTests" */;
+			buildPhases = (
+				78C498B21BE85A440032281F /* Sources */,
+				78C498B31BE85A440032281F /* Frameworks */,
+				78C498B41BE85A440032281F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78C498B81BE85A440032281F /* PBXTargetDependency */,
+			);
+			name = CalorieCounterTests;
+			productName = CalorieCounterTests;
+			productReference = 78C498B61BE85A440032281F /* CalorieCounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78C498991BE85A430032281F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Serhiy Konyk";
+				TargetAttributes = {
+					78C498A01BE85A440032281F = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					78C498B51BE85A440032281F = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 78C498A01BE85A440032281F;
+					};
+				};
+			};
+			buildConfigurationList = 78C4989C1BE85A430032281F /* Build configuration list for PBXProject "CalorieCounter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78C498981BE85A430032281F;
+			productRefGroup = 78C498A21BE85A440032281F /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7807313C1C109A7400CCC0FC /* Products */;
+					ProjectRef = 7807313B1C109A7400CCC0FC /* Charts.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				78C498A01BE85A440032281F /* CalorieCounter */,
+				78C498B51BE85A440032281F /* CalorieCounterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		780731401C109A7400CCC0FC /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 7807313F1C109A7400CCC0FC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78C4989F1BE85A440032281F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C498AC1BE85A440032281F /* Main.storyboard in Resources */,
+				78C498B11BE85A440032281F /* LaunchScreen.xib in Resources */,
+				7807314C1C124C3600CCC0FC /* README.rtf in Resources */,
+				78C498AE1BE85A440032281F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C498B41BE85A440032281F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7807314D1C124C3600CCC0FC /* README.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78C4989D1BE85A440032281F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				786378861BEEEFBD00D48C1F /* ResetPasswordViewController.swift in Sources */,
+				780731491C12397100CCC0FC /* PrecentageCalculator.swift in Sources */,
+				78C498F71BE90F770032281F /* TabBarViewController.swift in Sources */,
+				78C498CC1BE8674F0032281F /* LogInViewController.swift in Sources */,
+				781132361BF8DFA80045FDC4 /* CaloriesInputViewController.swift in Sources */,
+				781132261BF815450045FDC4 /* LogViewController.swift in Sources */,
+				78C498CE1BE8E8490032281F /* PersonalDetailViewController.swift in Sources */,
+				78C498CA1BE860D90032281F /* NavigationViewController.swift in Sources */,
+				781132381BF8FCC10045FDC4 /* TableViewController.swift in Sources */,
+				78C498D01BE8E86D0032281F /* RegisterViewController.swift in Sources */,
+				786378881BEF045700D48C1F /* BMRCalculator.swift in Sources */,
+				78C498F51BE90BA50032281F /* HomeViewController.swift in Sources */,
+				781132241BF8002F0045FDC4 /* Button.swift in Sources */,
+				78C498A71BE85A440032281F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C498B21BE85A440032281F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7807314A1C12397100CCC0FC /* PrecentageCalculator.swift in Sources */,
+				78C498BD1BE85A440032281F /* CalorieCounterTests.swift in Sources */,
+				780731211C0FFF9E00CCC0FC /* BMRCalculator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		780731441C109A8000CCC0FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Charts;
+			targetProxy = 780731431C109A8000CCC0FC /* PBXContainerItemProxy */;
+		};
+		78C498B81BE85A440032281F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78C498A01BE85A440032281F /* CalorieCounter */;
+			targetProxy = 78C498B71BE85A440032281F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78C498AA1BE85A440032281F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78C498AB1BE85A440032281F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78C498AF1BE85A440032281F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78C498B01BE85A440032281F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78C498BE1BE85A440032281F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78C498BF1BE85A440032281F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78C498C11BE85A440032281F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CalorieCounter",
+				);
+				INFOPLIST_FILE = CalorieCounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		78C498C21BE85A440032281F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CalorieCounter",
+				);
+				INFOPLIST_FILE = CalorieCounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		78C498C41BE85A440032281F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CalorieCounterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalorieCounter.app/CalorieCounter";
+			};
+			name = Debug;
+		};
+		78C498C51BE85A440032281F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CalorieCounterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalorieCounter.app/CalorieCounter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78C4989C1BE85A430032281F /* Build configuration list for PBXProject "CalorieCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C498BE1BE85A440032281F /* Debug */,
+				78C498BF1BE85A440032281F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78C498C01BE85A440032281F /* Build configuration list for PBXNativeTarget "CalorieCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C498C11BE85A440032281F /* Debug */,
+				78C498C21BE85A440032281F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78C498C31BE85A440032281F /* Build configuration list for PBXNativeTarget "CalorieCounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C498C41BE85A440032281F /* Debug */,
+				78C498C51BE85A440032281F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78C498991BE85A430032281F /* Project object */;
+}
