@@ -12,8 +12,6 @@
 		780731421C109A8000CCC0FC /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 780731401C109A7400CCC0FC /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		780731491C12397100CCC0FC /* PrecentageCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780731481C12397100CCC0FC /* PrecentageCalculator.swift */; };
 		7807314A1C12397100CCC0FC /* PrecentageCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780731481C12397100CCC0FC /* PrecentageCalculator.swift */; };
-		7807314C1C124C3600CCC0FC /* README.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7807314B1C124C3600CCC0FC /* README.rtf */; };
-		7807314D1C124C3600CCC0FC /* README.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7807314B1C124C3600CCC0FC /* README.rtf */; };
 		781132241BF8002F0045FDC4 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781132231BF8002F0045FDC4 /* Button.swift */; };
 		781132261BF815450045FDC4 /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781132251BF815450045FDC4 /* LogViewController.swift */; };
 		781132361BF8DFA80045FDC4 /* CaloriesInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781132351BF8DFA80045FDC4 /* CaloriesInputViewController.swift */; };
@@ -91,7 +89,6 @@
 /* Begin PBXFileReference section */
 		7807313B1C109A7400CCC0FC /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = Charts/Charts.xcodeproj; sourceTree = "<group>"; };
 		780731481C12397100CCC0FC /* PrecentageCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrecentageCalculator.swift; sourceTree = "<group>"; };
-		7807314B1C124C3600CCC0FC /* README.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = README.rtf; sourceTree = "<group>"; };
 		781132231BF8002F0045FDC4 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		781132251BF815450045FDC4 /* LogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
 		781132351BF8DFA80045FDC4 /* CaloriesInputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaloriesInputViewController.swift; sourceTree = "<group>"; };
@@ -201,7 +198,6 @@
 				78C498B91BE85A440032281F /* CalorieCounterTests */,
 				78C498D11BE8F4E00032281F /* Framaworks */,
 				78C498A21BE85A440032281F /* Products */,
-				7807314B1C124C3600CCC0FC /* README.rtf */,
 			);
 			sourceTree = "<group>";
 		};
@@ -342,6 +338,7 @@
 		78C498991BE85A430032281F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Serhiy Konyk";
 				TargetAttributes = {
@@ -396,7 +393,6 @@
 			files = (
 				78C498AC1BE85A440032281F /* Main.storyboard in Resources */,
 				78C498B11BE85A440032281F /* LaunchScreen.xib in Resources */,
-				7807314C1C124C3600CCC0FC /* README.rtf in Resources */,
 				78C498AE1BE85A440032281F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,7 +401,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7807314D1C124C3600CCC0FC /* README.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
