@@ -4,6 +4,7 @@ Calorie Counter App
 =======
 
 * Xcode 6 / Swift 1.2
+* Optimized to work with all iOS devices in portrait and landscape mode
 
 About Calorie Counter App
 =======
@@ -46,25 +47,35 @@ type
 App Screenshots
 =======
 
-- 
+=======
 ![alt tag](https://github.com/konyks/CalorieCounterApp/blob/master/Screenshots/1.png)
-- 
+
+=======
 ![alt tag](https://github.com/konyks/CalorieCounterApp/blob/master/Screenshots/2.png)
-- 
+
+=======
 ![alt tag](https://github.com/konyks/CalorieCounterApp/blob/master/Screenshots/3.png)
-- 
+
+=======
 ![alt tag](https://github.com/konyks/CalorieCounterApp/blob/master/Screenshots/4.png)
-- 
+
+=======
 ![alt tag](https://github.com/konyks/CalorieCounterApp/blob/master/Screenshots/5.png)
-- 
+
+=======
 ![alt tag](https://github.com/konyks/CalorieCounterApp/blob/master/Screenshots/6.png)
-- 
+
+=======
 ![alt tag](https://github.com/konyks/CalorieCounterApp/blob/master/Screenshots/7.png)
-- 
+
+=======
 ![alt tag](https://github.com/konyks/CalorieCounterApp/blob/master/Screenshots/8.png)
-- 
+
+=======
 ![alt tag](https://github.com/konyks/CalorieCounterApp/blob/master/Screenshots/9.png)
-- 
+
+=======
 ![alt tag](https://github.com/konyks/CalorieCounterApp/blob/master/Screenshots/10.png)
-- 
+
+=======
 Copyright 2016 Serhiy Konyk
